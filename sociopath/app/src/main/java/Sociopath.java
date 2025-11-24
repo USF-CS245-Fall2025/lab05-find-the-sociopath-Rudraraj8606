@@ -10,7 +10,7 @@ public class Sociopath {
         if(groupSize < 0){
             return -1;
         }
-        
+
         int length = groupSize + 1;
         int[] outGoingCount = new int[length];
         int[] inComingCount = new int[length];
